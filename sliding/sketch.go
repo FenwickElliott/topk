@@ -293,6 +293,6 @@ func (me *Sketch) Reset() {
 		me.Buckets[i].Fingerprint = 0
 		clear(me.Buckets[i].Counts)
 	}
-	clear(me.Buckets)
+	// clear(me.Buckets)
 	me.Heap.Reset()
 }
