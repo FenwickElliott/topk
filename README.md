@@ -1,8 +1,8 @@
 # topk
-[![Coverage](https://img.shields.io/badge/Coverage-97.8%25-brightgreen)](https://github.com/keilerkonzept/topk/actions/workflows/gocover.yaml)
+[![Coverage](https://img.shields.io/badge/Coverage-97.8%25-brightgreen)](https://github.com/fenwickelliott/topk/actions/workflows/gocover.yaml)
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/keilerkonzept/topk.svg)](https://pkg.go.dev/github.com/keilerkonzept/topk)
-[![Go Report Card](https://goreportcard.com/badge/github.com/keilerkonzept/topk)](https://goreportcard.com/report/github.com/keilerkonzept/topk)
+[![Go Reference](https://pkg.go.dev/badge/github.com/fenwickelliott/topk.svg)](https://pkg.go.dev/github.com/fenwickelliott/topk)
+[![Go Report Card](https://goreportcard.com/badge/github.com/fenwickelliott/topk)](https://goreportcard.com/report/github.com/fenwickelliott/topk)
 [![Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  
 
 Sliding-window and regular top-K sketches.
@@ -12,8 +12,8 @@ Sliding-window and regular top-K sketches.
 
 ```go
 import (
-	"github.com/keilerkonzept/topk" // plain sketch
-	"github.com/keilerkonzept/topk/sliding" // sliding-window sketch
+	"github.com/fenwickelliott/topk" // plain sketch
+	"github.com/fenwickelliott/topk/sliding" // sliding-window sketch
 )
 ```
 
@@ -41,7 +41,7 @@ package main
 
 import (
 	"log"
-	"github.com/keilerkonzept/topk"
+	"github.com/fenwickelliott/topk"
 )
 
 func main() {
@@ -83,7 +83,7 @@ package main
 
 import (
 	"log"
-	"github.com/keilerkonzept/topk/sliding"
+	"github.com/fenwickelliott/topk/sliding"
 )
 
 func main() {
@@ -127,7 +127,7 @@ func main() {
 ```
 goos: darwin
 goarch: arm64
-pkg: github.com/keilerkonzept/topk
+pkg: github.com/fenwickelliott/topk
 cpu: Apple M1 Pro
 ```
 
@@ -173,7 +173,7 @@ The `Add` benchmark performs random increments in the interval [1,10).
 ```
 goos: darwin
 goarch: arm64
-pkg: github.com/keilerkonzept/topk/sliding
+pkg: github.com/fenwickelliott/topk/sliding
 cpu: Apple M1 Pro
 ```
 
@@ -234,7 +234,7 @@ $ benchstat -row /K,/Depth,/Width,/Decay -col .name old.txt new.txt
 ```
 goos: darwin
 goarch: arm64
-pkg: github.com/keilerkonzept/topk
+pkg: github.com/fenwickelliott/topk
 cpu: Apple M1 Pro
 ```
 

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/keilerkonzept/topk/heap"
-	"github.com/keilerkonzept/topk/internal/sizeof"
+	"github.com/fenwickelliott/topk/heap"
+	"github.com/fenwickelliott/topk/internal/sizeof"
 )
 
 func TestMinHeap_LessSwap(t *testing.T) {

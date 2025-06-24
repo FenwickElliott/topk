@@ -9,9 +9,9 @@ import (
 	"slices"
 	"sort"
 
-	"github.com/keilerkonzept/topk"
-	"github.com/keilerkonzept/topk/heap"
-	"github.com/keilerkonzept/topk/internal/sizeof"
+	"github.com/fenwickelliott/topk"
+	"github.com/fenwickelliott/topk/heap"
+	"github.com/fenwickelliott/topk/internal/sizeof"
 )
 
 // Sketch is a sliding-window top-k sketch.

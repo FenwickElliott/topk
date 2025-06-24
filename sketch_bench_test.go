@@ -6,7 +6,7 @@ import (
 	"math/rand/v2"
 	"testing"
 
-	"github.com/keilerkonzept/topk"
+	"github.com/fenwickelliott/topk"
 	segmentiotopk "github.com/segmentio/topk"
 )
 

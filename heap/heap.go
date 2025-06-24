@@ -4,7 +4,7 @@ package heap
 import (
 	"container/heap"
 
-	"github.com/keilerkonzept/topk/internal/sizeof"
+	"github.com/fenwickelliott/topk/internal/sizeof"
 )
 
 // Item is an entry in the Min-heap with a fingerprint, the item string, and its count.

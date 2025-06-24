@@ -1,4 +1,4 @@
-module github.com/keilerkonzept/topk
+module github.com/fenwickelliott/topk
 
 go 1.23
 

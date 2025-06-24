@@ -5,11 +5,11 @@ import (
 	"math/rand/v2"
 	"testing"
 
+	"github.com/fenwickelliott/topk"
+	"github.com/fenwickelliott/topk/heap"
+	"github.com/fenwickelliott/topk/internal/sizeof"
+	"github.com/fenwickelliott/topk/sliding"
 	"github.com/google/go-cmp/cmp"
-	"github.com/keilerkonzept/topk"
-	"github.com/keilerkonzept/topk/heap"
-	"github.com/keilerkonzept/topk/internal/sizeof"
-	"github.com/keilerkonzept/topk/sliding"
 )
 
 func TestNewSketch_DefaultParameters(t *testing.T) {

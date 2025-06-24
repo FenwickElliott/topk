@@ -5,7 +5,7 @@ import (
 	"math/rand/v2"
 	"testing"
 
-	"github.com/keilerkonzept/topk/sliding"
+	"github.com/fenwickelliott/topk/sliding"
 )
 
 var (
